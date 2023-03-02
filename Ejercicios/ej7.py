@@ -23,7 +23,7 @@ def transformar(numero, base):
             if residuo < 10:
                 conversion = str(residuo) + conversion
             else:
-                vonversion = chr(residuo - 10 + ord('A')) + conversion
+                conversion = chr(residuo - 10 + ord('A')) + conversion
             numero = numero // base
         print(conversion)
 
