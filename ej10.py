@@ -19,6 +19,9 @@ def personas_20_30():
                 personas_entre_20_30.append(persona)
 huérfanos_menos_15 = []
 def numero_huerfanos_menor_15():
+    for persona in familias:
+        if persona is not None and persona.edad < 15 and persona.id_padre == "HUÉRFANO" and persona.id_madre == "HUÉRFANO":
+            huérfanos_menos_15.append(persona)
      
 
 
