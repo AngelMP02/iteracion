@@ -9,7 +9,7 @@ class PERSONA:
 
 
 if __name__ == '__main__':
-    familias = [None] * 1000
+   
 
     familias = [None] * 1000 #creo una lista con 1000 elementos
 
