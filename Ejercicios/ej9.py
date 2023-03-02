@@ -6,7 +6,15 @@ def tabla(diccionario):
     encabezado=["i", "diccionario", "anterior", "siguiente"]
     print(tabulate.tabulate(table, encabezado, showindex = True))
 
-tabla(diccionario=["avion", "tren", "auto", "camion"])
+diccionario=["avion", "tren", "auto", "camion"]
+print("Tabla incial:")
+tabla(diccionario)
+
+print("\n Tabla ordenada:")
+diccionario.sort()
+tabla(diccionario)
+
+
 
 
 
