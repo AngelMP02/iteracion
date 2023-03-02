@@ -20,17 +20,10 @@ def ejecutar():
     n = input("Inserte el numero de el ejercicio que quieras ejecutar:")
 
     if n == 6:
-        n = 4
-        FuncionOrdenar(n,'A','B','C')
+        return
 
     elif n==7:
-            
-        mat = [[1, 0, 2, -1],
-            [3, 0, 0, 5],
-            [2, 1, 4, -3],
-            [1, 0, 5, 0]]
-
-        print('El determinante de la matriz es:', determinantOfMatrix(mat))
+        return
 
 
     elif n==8:
@@ -38,15 +31,37 @@ def ejecutar():
  
 
     elif n==9:
-        ejecucion4()
+        diccionario=["avion", "tren", "auto", "camion"]
+        print("Tabla incial:")
+        tabla(diccionario)
+
+        print("\n Tabla ordenada:")
+        diccionario.sort()
+        tabla(diccionario)
 
     elif n==10:
-        ejecucion5()
+        return
+
     elif n==11:
-        ejecucion5()
+        try:
+            a = int(input("Introduzca un numero entero:"))
+            b = int(input("Introduzca un numero entero:"))
+        except ValueError:
+            print("El numero que has introducio no es un numero entero")
+        resultado = mcd(a, b)
+        print(f"El Máximo común divisor de {a} y {b} es {resultado}")
+
     elif n==12:
-        ejecucion5()
+        numeros = []
+
+        rango = int(input("Introduzca el rango de numeros de los que quiere sacar los cuadrados perfectos:"))
+        cuadrados_perfectos = []
+        funcionCuadradosPerfectos(rango)
+        print(f"Los cuadrados perfectos en el rango de numeros {rango} son {cuadrados_perfectos}")
+
+        print(sqrt(16))
 
     else:
         print("El numero de ejercicio que has insertado es incorrecto!!!!")
+
 ejecutar()
