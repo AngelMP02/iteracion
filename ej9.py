@@ -9,5 +9,6 @@ def tabla(diccionario):
 tabla(diccionario=["avion", "tren", "auto", "camion"])
 
 
+
    
 
