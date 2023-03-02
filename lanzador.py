@@ -20,7 +20,7 @@ def ejecutar():
     n = input("Inserte el numero de el ejercicio que quieras ejecutar:")
 
     if n == 6:
-        return
+        return #
 
 
     elif n==7:
