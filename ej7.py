@@ -8,3 +8,7 @@ try:
 except ValueError:
     print("El input no es un número entero")
 
+
+def transformar(base, numero):
+    return
+    
