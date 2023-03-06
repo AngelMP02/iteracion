@@ -1,20 +1,28 @@
 import sys
 
-sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej6")
-sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej7")
-sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej8")
-sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej9")
-sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej10")
-sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej11")
-sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej12")
+sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios")
+# sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej7")
+# sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej8")
+# sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej9")
+# sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej10")
+# sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej11")
+# sys.path.insert(0,"/Users/smite/Documents/GitHub/iteracion/Ejercicios/ej12")
 
-from ej6 import *
-from ej7 import *
-from ej8 import *
-from ej9 import *
-from ej10 import *
-from ej11 import *
-from ej12 import *
+from Ejercicios import ej6
+from Ejercicios import ej7
+from Ejercicios import ej8
+from Ejercicios import ej9
+from Ejercicios import ej10
+from Ejercicios import ej11
+from Ejercicios import ej12
+
+# from ej6 import *
+# from ej7 import *
+# from ej8 import *
+# from ej9 import *
+# from ej10 import *
+# from ej11 import *
+# from ej12 import *
 
 def ejecutar():
     n = input("Inserte el numero de el ejercicio que quieras ejecutar:")
